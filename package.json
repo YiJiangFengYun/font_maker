@@ -1,0 +1,36 @@
+{
+  "name": "font_maker",
+  "version": "0.0.0",
+  "description": "A script tool to export bitmap font with BMFont.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build_development": "tsc --build tsconfig.json",
+    "build_production": "tsc --build tsconfig.dist.json",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.fireant.com:dev_tools/font_maker.git"
+  },
+  "keywords": [
+    "tool",
+    "font",
+    "bmfont"
+  ],
+  "author": "luoyujiang",
+  "license": "ISC",
+  "dependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "@types/fs-extra": "^5.0.5",
+    "@types/node": "^11.13.7",
+    "command-line-args": "^5.1.1",
+    "fs-extra": "^7.0.1",
+    "log4js": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "bin": {
+    "archiver": "./cli/index.js"
+  }
+}
