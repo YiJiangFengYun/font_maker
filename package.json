@@ -1,6 +1,6 @@
 {
   "name": "font_maker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A script tool to export bitmap font with BMFont.",
   "main": "dist/index.js",
   "scripts": {
